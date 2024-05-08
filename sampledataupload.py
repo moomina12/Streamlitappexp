@@ -4,7 +4,7 @@ import pandas as pd
 # Load sample data
 @st.cache_resource
 def load_data():
-    data = pd.read_csv(r"C:\Users\HP\Desktop\MISc\data\diabetesdata_csv.csv")  # Load your CSV file
+    data = pd.read_csv("diabetesdata_csv.csv")  # Load your CSV file
     return data
 
 # Main function
